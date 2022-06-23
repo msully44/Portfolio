@@ -1,0 +1,89 @@
+:root {
+    --border-color: rgb(63, 52, 52);
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background: lightgray;
+}
+
+    
+    
+header{
+    width: 100%;
+}
+nav {
+    display: flex;
+    background: #444;
+    color: white;
+    flex-wrap: wrap;
+    
+   
+}
+nav h1 {
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+nav a {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+    
+}
+.about-me {
+    text-align: center;
+    display:flex;
+
+}
+.about-me h2 {
+    padding-top: 1%;
+}
+.about-me img {
+border: solid;
+border-radius: 5px;
+border-width: 10px;
+border-color: var(--border-color)
+}
+.about-me p {
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+}
+.about-me h2, p {
+    border: solid;
+    border-radius: 5px;
+    border-width: 10px;
+    border-color: var(--border-color);
+}
+#project-one {
+    display: flex;
+    flex-direction: column;
+    
+}
+#project-one h2 {
+    text-align: left;
+}
+#project-one img {
+ height: 15%;
+ width: 50%
+ 
+}
+#project-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
